@@ -27,7 +27,8 @@ h1 {
 
 h2{
     font-size: 123.1%;
-    color: #000;
+    color: #555;
+    margin-top: 10px;
 }
 
 h3 {
@@ -446,7 +447,6 @@ margin-right: 10px;
     width: 675px;
     position: relative;
     left: -31px;
-    top: -31px;
     padding: 20px 10px 20px 30px;
     color: #555;
     text-shadow: #fff 0px 1px 0;
@@ -541,6 +541,7 @@ ul#aspect_viewArtifacts_Navigation_list_account.ds-simple-list.nav-container li,
 
 p {
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 #aspect_eperson_EditProfile_list_form,
@@ -551,7 +552,6 @@ p {
 
 .primary {
     margin-top: 10px;
-    margin-bottom: 30px;
     margin-bottom: 10px;
 }
 
@@ -1710,4 +1710,31 @@ div#uhl-front-content.ds-static-div {
     text-transform: uppercase;
     color: #555;
     text-shadow: #fff 0px 1px 0;
+}
+
+.icon-button{
+    padding:4px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: #707275;
+    border: 1px solid #1F3F5E;
+    text-indent: -1000px;
+    width: 22px;
+    height: 22px;
+    display:block;
+    /*Required for IE*/
+    font-size: 0;
+    line-height: 0;
+}
+
+.icon-button.arrowUp{
+    background-image: url(../../images/arrow_up_ffffff_16x16.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.icon-button.arrowDown{
+    background-image: url(../../images/arrow_down_ffffff_16x16.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
